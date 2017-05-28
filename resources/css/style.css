@@ -3,8 +3,23 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+
 h1 {
   font-size: 70px;
+}
+
+h2 {
+  font-size: 32px;
+  color: #000000;
+}
+
+h3 {
+  font-size: 23px;
 }
 
 #header {
@@ -16,6 +31,13 @@ h1 {
 
 #menu {
   font-size: 18px;
+  font-weight: normal;
   text-decoration: underline;
   line-height: 1.7;
+}
+
+#banner {
+  color: white;
+  background-image: url('../images/the-flatiron-building.png');
+
 }
