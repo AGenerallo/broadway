@@ -22,6 +22,10 @@ h3 {
   font-size: 23px;
 }
 
+p {
+  line-height: 2;
+}
+
 #header {
   background-image: url('../images/the-flatiron-building.png');
   color: white;
@@ -40,4 +44,15 @@ h3 {
   color: white;
   background-image: url('../images/the-flatiron-building.png');
 
+}
+
+#footer {
+  font-size: 11px;
+  background-color: dimgray;
+  text-align: left;
+  color: white;
+}
+
+#footermenu {
+  text-decoration: underline;
 }
